@@ -35,5 +35,9 @@ function sketch() {
     });
   }
   
+  const clearButton = document.getElementById("clear-btn");
+  clearButton.addEventListener("click", clearGrid);
+  
+  sketch();
 
   
